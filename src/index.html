@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <title>Module 4 Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="_left">
+          <h1>Extreme Banana <br />Competition</h1>
+        </div>
+        <div class="_middle">
+          <h3>
+            <h1>Bananas</h1>
+            <span id="bananaClicked_">0</span>
+          </h3>
+        </div>
+        <div class="_right">
+          <h1 id="headerButton_" class="_reset">Reset</h1>
+        </div>
+        <div class="_right">
+          <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank"
+            ><h1 class="_inspiration">Inspiration</h1></a
+          >
+        </div>
+        <div class="_right _position">
+          <h1 class="_dropMenu">Menu</h1>
+          <div class="drop">
+            <div class="_extreme">Extreme Banana</div>
+            <div class="_developer">Developer</div>
+            <div class="_removeDropDown">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="_multiplier">
+          <h3>Banana Multiplier <span class="_multiplierValue">0</span></h3>
+        </div>
+        <div class="_banana"></div>
+        <object
+          class="_object"
+          type="text/html"
+          data="stat.html"
+          width="500px"
+          height="200px"
+        ></object>
+        <object
+          class="_companyInfo"
+          type="text/html"
+          data="Company.html"
+          width="500px"
+          height="200px"
+        ></object>
+        <iframe
+          class="_developerInfo"
+          src="Contact.html"
+          title="description"
+        ></iframe>
+        <div class="_autoClicker">
+          <h3>Banana AutoClicker <span class="_autoClickerValue">0</span></h3>
+        </div>
+      </div>
+      <div class="_playGameButton">
+        <div class="_playButton">Play Again!</div>
+        <div class="_resumeButton">Resume!</div>
+      </div>
+      <div class="footer">
+        <div class="stat1">
+          <h3>
+            Cost for Multiplier: <span class="_multiplierCostValue">10</span>
+          </h3>
+        </div>
+        <div class="stat2">
+          <h3>AutoClicker Cost: <span class="_autoClickerCost">100</span></h3>
+        </div>
+      </div>
+    </div>
+    <script src="./JavaScript/BananaMaker.js" type="module"></script>
+    <script src="./JavaScript/app.js" type="module"></script>
+  </body>
+</html>
